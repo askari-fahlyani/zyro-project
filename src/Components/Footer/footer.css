@@ -26,13 +26,13 @@ margin: 0 350px 0 0;
     font-size: 20px;
 }
 .footerSocialMedia a{
-list-style-type: none;
     color: white;
     font-size: 20px;
 }
 .footerContact{
     color: white;
     font-size: 20px;
+    list-style-type: none;
 
 }
 .footerContact a{

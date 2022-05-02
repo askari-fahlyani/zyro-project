@@ -11,9 +11,10 @@ function Navbar(props) {
         }else {
             setNavbar(false)
         }
+        console.log(navbar)
     }
 
-
+window.addEventListener('scroll',changeBackground)
 
     return (
 
