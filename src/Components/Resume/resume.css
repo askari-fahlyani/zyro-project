@@ -1,0 +1,75 @@
+.resumeContainer{
+    padding-top: 150px;
+    margin-top: 20px;
+    background-color: #f1f2f6;
+
+}
+.resumeTopSection{
+display: flex;
+    justify-content: space-between;
+}
+.resumeTopSectionLeft{
+    padding: 0px 0 0 80px;
+}
+.resumeTopSectionRight{
+ max-width: 700px;
+    margin-right: 20px;
+}
+.experience{
+
+}
+.experience h1{
+    font-weight: lighter;
+}
+.experience h4{
+    font-size: 22px;
+}
+.experience p{
+font-size: 18px;
+}
+
+
+.resumeMiddleSection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.resumeMiddleSectionLeft{
+    padding: 0px 0 0 80px;
+}
+.resumeMiddleSectionRight{
+    max-width: 700px;
+    margin-right: 140px;
+}
+.education{
+
+}
+.education h1{
+
+    font-weight: lighter;
+}
+.education h4{
+    font-size: 22px;
+}
+
+.resumeBottomSection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.resumeBottomSectionLeft{
+    padding: 0px 0 0 80px;
+}
+.resumeBottomSectionRight{
+    max-width: 700px;
+    margin-right: 235px;
+}
+.Courses{
+
+}
+.Courses h1{
+font-weight: lighter;
+}
+.Courses h4{
+    font-size: 22px;
+}

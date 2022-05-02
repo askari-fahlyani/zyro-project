@@ -1,0 +1,23 @@
+.teammatesContainer{
+padding: 200px 0 120px 80px;
+    background-color: #f1f2f6;
+}
+.teammatesContainer>h1{
+margin-bottom: 40px;
+    font-size: 50px;
+}
+.teammate{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 40px;
+}
+.teammateImg{
+border-radius: 20px;
+}
+.teammateComment{
+    flex-basis: 600px;
+    margin-right: 200px;
+}
+.teammateComment>p{
+font-size: 18px;
+}

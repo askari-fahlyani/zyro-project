@@ -4,6 +4,10 @@
 .navbarContainer{
     display: flex;
     justify-content: space-between;
+    background-color: #f1f2f6;
+    padding-bottom: 30px;
+
+
 
 }
 
@@ -28,4 +32,11 @@
 .rightItemLink:hover{
     border-bottom: 3px solid darkblue;
     color:#130f40 ;
+}
+
+.scroll{
+    position: sticky;
+    top: 0;
+    background-color: white;
+
 }

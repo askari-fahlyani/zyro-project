@@ -1,9 +1,23 @@
 import React from 'react';
 import './navbar.css'
+import {useState} from "react";
 
 function Navbar(props) {
+    const [navbar,setNavbar]=useState(false)
+
+    const changeBackground=()=>{
+        if (window.scrollY>=80){
+            setNavbar(true)
+        }else {
+            setNavbar(false)
+        }
+    }
+
+
+
     return (
-        <div className={`navbarContainer`}>
+
+        <div className={`navbarContainer ${navbar?'scroll':''}`}>
             <div className='leftItem'>
                 <a className='leftItemLink' href="#">Brooke</a>
             </div>

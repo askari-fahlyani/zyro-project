@@ -1,0 +1,41 @@
+.footerContainer{
+height: 400px;
+    background-color: #40407a;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 0 80px;
+    align-items: baseline;
+}
+.leftSide{
+color: white;
+}
+.leftSide>h1{
+font-size: 60px;
+}
+.leftSide>p{
+font-size: 18px;
+}
+.rightSide{
+margin: 0 350px 0 0;
+    display: flex;
+}
+.footerSocialMedia{
+    padding-right: 50px;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+.footerSocialMedia a{
+list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+.footerContact{
+    color: white;
+    font-size: 20px;
+
+}
+.footerContact a{
+    color: white;
+    font-size: 20px;
+}
